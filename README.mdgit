@@ -1,0 +1,1 @@
+"# my-first-project"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/yemsef/my-first-project.gitgit push -u origin main

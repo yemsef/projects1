@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#btn1:hover {
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+
+#btn2:hover {
+    background-color: transparent;
+    color: blue;
+    border: none;
+}
+
+#section1 {
+    height: 900px;
+    background-color: #F8F9FB;
+    width: 100%;
+}
+
+#div1 {
+    padding-left: 10%;
+    padding-right: 7%;
+    padding-top: 8%;
+    background-image: url(https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-homev2-banner.webp);
+    background-size: 100% 30%;
+    background-repeat: no-repeat;
+    background-position: bottom 13% left 10%;
+    width: 60%;
+    height: inherit;
+}
+
+#div2 {
+    width: 40%;
+    height: inherit;
+}
+
+#div2>#div02 {
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+    margin-top: 15%;
+    background-color: #ffffff;
+}
+
+#div1>h1 {
+    font-family: sans-serif;
+    font-size: 55px;
+}
+
+#div3 {
+    height: 200px;
+    margin-left: 12.5%;
+    width: 75%;
+    position: relative;
+    top: 100px;
+    background-color: white;
+}
+
+#div4,
+#div5,
+#div6 {
+    width: 33%;
+    height: inherit;
+    margin-right: 5px;
+}
+
+#div5 {
+    padding-top: 4%;
+}
+
+#button1 {
+    padding: 10px 25px;
+    border: none;
+    background-color: #056CB8;
+    color: white;
+    margin-top: 2%;
+}
+
+#div4>img {
+    margin-left: 15%;
+    margin-top: 15%;
+}
+#div6>img{
+    width: 75%;
+    height: 100%;
+    padding-top:12%;
+}
+
+#section2 {
+    width: 100%;
+    height: 200px;
+    background-color: #F8F9FB;
+}
+
+#section3 {
+    width: 100%;
+    height: 600px;
+    background-color: #FED600;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#div7{
+    width: 40%;
+    height: 100%;
+    margin-left: 10%;
+}
+#div8{
+    width: 40%;
+    height: 100%;
+    margin-right: 10%;
+}
+#section4{
+    width: 100%;
+    height: 100%;
+    background-color: #F8F9FB;
+}
+#div9{
+    width: 80%;
+    height: 80%;
+    margin: 5% 10%;
+    text-align: center;
+    background-color: #F8F9FB;
+}
+
+@media(max-width:800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-fluid {
+        padding: 2%;
+        margin: 2%;
+    }
+
+    #section1 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #div1 {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        background-image: url(https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-homev2-banner.webp);
+        background-size: 100% 30%;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        height: 530px;
+    }
+
+    #div1>h1 {
+        font-size: 28px;
+    }
+
+    #div2 {
+        width: 100%;
+        height: 800px;
+
+    }
+
+    #div2>#div02 {
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+
+
+    }
+    #section2{
+        width: 100%;
+        height: 600px;
+    }
+
+    #div3 {
+        width: 80%;
+        height: 400px;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 10%;
+
+
+
+    }
+    #div4,#div5, #div6{
+        width: 100%;
+        height: 100%;
+    }
+    #div4>img{
+        margin-top:5%;
+        width: 100px;
+        height: 200px;
+        margin-left: 0;
+    }
+    #div6>img{
+        width: 50%;
+        height: 100%;
+        padding-top: 0;
+    }
+    #section3{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    #div7{
+        flex-direction: column;
+        width: 80%;
+        height: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    #div8{
+        width: 70%;
+        height: 100%;
+        text-align: center;
+
+    }
+    #div801{flex-direction: column;
+padding: 0;
+    }
+    #div9{
+        width: 100%;
+        height: 100%;
+        margin: 2% 2%;
+    }
+}
