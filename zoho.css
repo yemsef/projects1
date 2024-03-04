@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+#nav{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+}
 
 .container-fluid {
     padding-left: 10%;
@@ -294,19 +300,23 @@
     padding-top: 7%;
     text-align: center;
 }
-#div16{
+
+#div16 {
     padding: 7%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-#div17{
+
+#div17 {
     margin-right: 5%;
 }
-.p1{
+
+.p1 {
     font-size: 18px;
 }
-#button5{
+
+#button5 {
     width: 220px;
     height: 50px;
     border: none;
@@ -314,40 +324,48 @@
     color: white;
     /* margin-left: 40%; */
 }
-#section10{
+
+#section10 {
     width: 100%;
     height: 400px;
     background-color: #F8F9FB;
     display: flex;
 }
-#div18{
+
+#div18 {
     width: 40%;
     height: inherit;
-    margin-left:15%;
+    margin-left: 15%;
     margin-top: -10%;
 }
-#div19{
+
+#div19 {
     width: 30%;
     height: inherit;
     margin-top: -10%;
 }
-#p5{
+
+#p5 {
     width: 70px;
     height: 30px;
     background-color: black;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    margin:5% 20%;
+    margin: 5% 20%;
     font-weight: bold;
 }
-#p6{
-    margin-left:20% ;font-size: 18px;
+
+#p6 {
+    margin-left: 20%;
+    font-size: 18px;
 }
-#p7{
+
+#p7 {
     margin-left: 20%;
 
 }
-#button6{
+
+#button6 {
     border: 1px solid #247EC0;
     color: #0060B4;
     background-color: transparent;
@@ -357,14 +375,16 @@
     padding: 10px 20px;
     margin-top: 10px;
 }
-#section11{
+
+#section11 {
     width: 100%;
     height: 300px;
     text-align: center;
     background-color: #F3F5F9;
     margin-top: -5%;
 }
-#button7{
+
+#button7 {
     border: none;
     padding: 10px 20px;
     background-color: #F60014;
@@ -373,16 +393,117 @@
     font-weight: 600;
     margin-top: 20px;
 }
-#section12{
+
+#section12 {
     width: 100%;
-    height: 600px;
+    height: 400px;
     background-color: #F3F5F9;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
 }
-ul{
+
+ul {
     list-style: none;
+}
+
+#ul>:first-child {
+    font-size: 25px;
+    padding-bottom: 5%;
+}
+
+ul>li {
+    font-size: 18px;
+}
+
+#section13 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: #F3F5F9;
+}
+
+#section14 {
+    width: 100%;
+    height: 250px;
+    background-color: #F3F5F9;
+    text-align: center;
+}
+
+#div21,
+#div22 {
+    width: 70%;
+    height: 50%;
+    padding-top: 2%;
+    margin-left: 15%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+#button8 {
+    width: 40px;
+    height: 40px;
+    background-color: #F3F5F9;
+    border-radius: 5px;
+    border: none;
+}
+
+#button9 {
+    width: 40px;
+    height: 40px;
+    background-color: #F3F5F9;
+    border-radius: 5px;
+    border: none;
+    color: #0060B4;
+}
+
+#button10 {
+    width: 40px;
+    height: 40px;
+    background-color: #F3F5F9;
+    border-radius: 5px;
+    border: none;
+    color: orangered;
+}
+
+#button11 {
+    width: 40px;
+    height: 40px;
+    background-color: #F3F5F9;
+    border-radius: 5px;
+    border: none;
+    color: #0A66C2;
+}
+
+#button12 {
+    width: 40px;
+    height: 40px;
+    background-color: #F3F5F9;
+    border-radius: 5px;
+    border: none;
+    color: #F60014;
+}
+
+#div22>span {
+    margin-right: 2%;
+    margin-bottom: 50%;
+    border-right: 1px solid gray;
+    padding-right: 2%;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+#div23 {
+    display: none;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #0B0D1F;
+    text-align: center;
+    color: white;
+}
+#staticdiv{
+    display: none;
 }
 
 
@@ -390,6 +511,10 @@ ul{
     * {
         margin: 0;
         padding: 0;
+    }
+    #nav{
+        width: 100%;
+        height: 40px;
     }
 
     .container-fluid {
@@ -410,6 +535,7 @@ ul{
         width: 100%;
         margin-left: 10px;
         margin-right: 10px;
+        margin-top: 25%;
         text-align: center;
         background-image: url(https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-homev2-banner.webp);
         background-size: 100% 30%;
@@ -627,18 +753,22 @@ ul{
         height: 100%;
         margin-left: 0;
     }
-    #section7{
+
+    #section7 {
         width: 100%;
         height: 100%;
     }
-    #section8{
+
+    #section8 {
         width: 100%;
         height: 60%;
     }
-    #section9{
+
+    #section9 {
         width: 100%;
         height: inherit;
     }
+
     #div15 {
         width: 95%;
         height: 1200px;
@@ -649,10 +779,12 @@ ul{
         bottom: 70px;
         text-align: center;
     }
-    #div16{
+
+    #div16 {
         flex-direction: column;
     }
-    #section10{
+
+    #section10 {
         width: 100%;
         height: 800px;
         background-color: #F8F9FB;
@@ -660,43 +792,120 @@ ul{
         flex-direction: column;
         text-align: center;
     }
-    #div18{
+
+    #div18 {
         width: 100%;
         height: 60%;
-        margin-left:0;
+        margin-left: 0;
         padding-left: 0;
     }
-    #div19{
-        width:100%;
+
+    #div19 {
+        width: 100%;
         height: 40%;
         padding-left: 0;
         margin-top: 10%;
     }
-    #p5{
-        margin-left: 40%;}
-        #div19>img{
-            width: 100%;height: 100%;
-            margin-right: 17%;
-        }
-        #p6{
-            margin-left: 0;
-        }
-        #p7{
-        padding-right: 17%;
-        }
-        #button6{
-            margin-left: 5%;
-            margin-top: 10%;
-        }
-        #p8{
-            font-size:35px !important;
-            padding-top: 10%;
-        }
-        #section11{
-            width: 100%;
-            height: 300px;
-        }
-        #p9{
-            font-size: 25px !important;
-        }
+
+    #p5 {
+        margin-left: 40%;
     }
+
+    #div19>img {
+        width: 100%;
+        height: 100%;
+        margin-right: 17%;
+    }
+
+    #p6 {
+        margin-left: 0;
+    }
+
+    #p7 {
+        padding-right: 17%;
+    }
+
+    #button6 {
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    #p8 {
+        font-size: 35px !important;
+        padding-top: 10%;
+    }
+
+    #section11 {
+        width: 100%;
+        height: 300px;
+    }
+
+    #p9 {
+        font-size: 25px !important;
+    }
+
+    #section12 {
+        display: none;
+    }
+
+    #section13 {
+        width: 100%;
+        height: 100%;
+        background-color: #F3F5F9;
+        display: block;
+    }
+
+    #section14 {
+        width: 100%;
+        height: 100%;
+    }
+
+    #div22 {
+        display: none;
+    }
+
+    #div21 {
+        width: 100%;
+        height: 20%;
+        margin-left: 0;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    #div23{
+        width: 100%;
+        height: 100px;
+        display:flex;
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    #div23>span{
+        border-right: 1px solid gray;
+        padding-right: 4%;
+    }
+    #staticdiv{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        position: fixed;
+        bottom:-2%;
+        padding: 0;
+        margin: 0;
+    }
+   #button13{
+    width: 10vw;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+   } 
+   #button14{
+    width: 90vw;
+    height: 50px;
+    border: none;
+    background-color: #F60014;
+    color: white;
+    font-weight: 600;
+   }
+
+}
