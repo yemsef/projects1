@@ -89,10 +89,11 @@
     margin-left: 15%;
     margin-top: 15%;
 }
-#div6>img{
+
+#div6>img {
     width: 75%;
     height: 100%;
-    padding-top:12%;
+    padding-top: 12%;
 }
 
 #section2 {
@@ -110,59 +111,71 @@
     align-items: center;
     justify-content: center;
 }
-#div7{
+
+#div7 {
     width: 40%;
     height: 100%;
     margin-left: 10%;
 }
-#div8{
+
+#div8 {
     width: 40%;
     height: 100%;
     margin-right: 10%;
 }
-#section4{
+
+#section4 {
     width: 100%;
     height: 100%;
     background-color: #F8F9FB;
 }
-#div9{
+
+#div9 {
     width: 80%;
     height: 80%;
     margin: 5% 10%;
     text-align: center;
     background-color: #F8F9FB;
 }
-#section5{
+
+#section5 {
     width: 100%;
     height: 800px;
     display: flex;
 }
-#div10,#div11{
+
+#div10,
+#div11 {
     width: 30%;
     height: 70%;
-    margin-top:7.5% ;
+    margin-top: 7.5%;
 }
-#div10{
-    margin-left:18%;
+
+#div10 {
+    margin-left: 18%;
     margin-right: 2%;
 }
-#div11{
+
+#div11 {
     margin-left: 4%;
     padding-top: 3%;
-    
+
 }
-#button2{
+
+#button2 {
     position: relative;
     top: -30px;
     left: 50px;
 }
-#section6{
+
+#section6 {
     width: 100%;
     height: 700px;
     background-color: #0060B4;
     display: flex;
 }
-#div13{
+
+#div13 {
     background-image: url(https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/made-au-bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -170,17 +183,19 @@
     height: inherit;
 }
 
-#div12{
+#div12 {
     width: 50%;
     height: inherit;
     color: white;
 }
-#div12>h2{
+
+#div12>h2 {
     font-size: 45px;
     padding-left: 20%;
     padding-top: 10%;
 }
-.user-size-wrap{
+
+.user-size-wrap {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -189,43 +204,188 @@
     flex-wrap: wrap;
     width: 70%;
 }
-.user-innerwrap{
+
+.user-innerwrap {
     display: flex;
     align-items: center;
     margin: 5px 5px;
     justify-content: space-between;
     width: 50%;
 
-    
+
 }
-.user-count-wrap{
+
+.user-count-wrap {
     font-size: 36px;
     width: 50%;
 
 }
-.fl{
+
+.fl {
     font-size: 18px;
     width: 50%;
-    
+
 
 }
-.counter{
+
+.counter {
     text-align: center;
 }
-.user-size{
+
+.user-size {
     display: flex;
     width: 90%;
     margin: 2px 5px;
 }
-#button3{
+
+#button3 {
     padding: 10px 25px;
-    border:1px solid white;
+    border: 1px solid white;
     background-color: transparent;
     color: white;
     margin-top: 2%;
     font-weight: 600;
     border-radius: 3px;
 }
+
+#section7 {
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+#div14 {
+    width: 80%;
+    height: 80%;
+    margin: 5% 10%;
+    text-align: center;
+}
+
+#button4 {
+    border: 1px solid #247EC0;
+    color: #0060B4;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#section8 {
+    width: 100%;
+    height: 650px;
+}
+
+#section9 {
+    width: 100%;
+    height: 1000px;
+    background-color: #F8F9FB;
+}
+
+#div15 {
+    width: 72%;
+    height: 95%;
+    margin: 2.5% 14%;
+    position: relative;
+    top: -25%;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+#div15>h1 {
+    padding-top: 7%;
+    text-align: center;
+}
+#div16{
+    padding: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#div17{
+    margin-right: 5%;
+}
+.p1{
+    font-size: 18px;
+}
+#button5{
+    width: 220px;
+    height: 50px;
+    border: none;
+    background-color: #056CB8;
+    color: white;
+    /* margin-left: 40%; */
+}
+#section10{
+    width: 100%;
+    height: 400px;
+    background-color: #F8F9FB;
+    display: flex;
+}
+#div18{
+    width: 40%;
+    height: inherit;
+    margin-left:15%;
+    margin-top: -10%;
+}
+#div19{
+    width: 30%;
+    height: inherit;
+    margin-top: -10%;
+}
+#p5{
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin:5% 20%;
+    font-weight: bold;
+}
+#p6{
+    margin-left:20% ;font-size: 18px;
+}
+#p7{
+    margin-left: 20%;
+
+}
+#button6{
+    border: 1px solid #247EC0;
+    color: #0060B4;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 20%;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+#section11{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: #F3F5F9;
+    margin-top: -5%;
+}
+#button7{
+    border: none;
+    padding: 10px 20px;
+    background-color: #F60014;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+#section12{
+    width: 100%;
+    height: 600px;
+    background-color: #F3F5F9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ul{
+    list-style: none;
+}
+
+
 @media(max-width:800px) {
     * {
         margin: 0;
@@ -275,7 +435,8 @@
 
 
     }
-    #section2{
+
+    #section2 {
         width: 100%;
         height: 600px;
     }
@@ -291,143 +452,251 @@
 
 
     }
-    #div4,#div5, #div6{
+
+    #div4,
+    #div5,
+    #div6 {
         width: 100%;
         height: 100%;
     }
-    #div4>img{
-        margin-top:5%;
+
+    #div4>img {
+        margin-top: 5%;
         width: 100px;
         height: 200px;
         margin-left: 0;
     }
-    #div6>img{
+
+    #div6>img {
         width: 50%;
         height: 100%;
         padding-top: 0;
     }
-    #section3{
+
+    #section3 {
         width: 100%;
         height: 100%;
         flex-direction: column;
     }
-    #div7{
+
+    #div7 {
         flex-direction: column;
         width: 80%;
         height: 100%;
         text-align: center;
         margin-left: 0;
     }
-    #div8{
+
+    #div8 {
         width: 70%;
         height: 100%;
         text-align: center;
 
     }
-    #div801{flex-direction: column;
-padding: 0;
+
+    #div801 {
+        flex-direction: column;
+        padding: 0;
     }
-    #div9{
+
+    #div9 {
         width: 100%;
         height: 100%;
         margin: 2% 2%;
     }
-    #div901>div{
-    
+
+    #div901>div {
+
         margin: 4% 5%;
     }
-    #button2{
-        display:none;
+
+    #button2 {
+        display: none;
     }
-    #section5{
+
+    #section5 {
         width: 100%;
         height: 100%;
         flex-direction: column-reverse;
     }
-    #div10{
+
+    #div10 {
         width: 90%;
         margin-left: 2%;
         margin-right: 0;
         margin-bottom: 15%;
     }
-    #div101{
+
+    #div101 {
         flex-direction: column;
         width: 100%;
     }
-    #div102{
+
+    #div102 {
         width: inherit !important;
         text-align: center;
         font-size: 18px !important;
     }
-    #div11{
+
+    #div11 {
         width: 90%;
         height: 100%;
         text-align: center;
 
     }
-    #p2{
+
+    #p2 {
         font-size: 40px !important;
     }
-    #p3{
+
+    #p3 {
         font-weight: 300 !important;
     }
-    #section6{
+
+    #section6 {
         flex-direction: column;
         width: 100%;
         height: 100%;
     }
-    #div12{
+
+    #div12 {
         width: 100%;
         height: 100%;
     }
-    #div13{
+
+    #div13 {
         background-image: url(https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/made-au-bg.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         width: 100%;
         height: 100%
     }
-    
-#div12>h2{
-    font-size: 40px;
-    text-align: center;
-    padding-left: 0;
-}
-.user-size-wrap{
 
-    margin-top: 10%;
-    width: 100%;
-    margin-left: 0;
-    padding-left: 10%;
-}
-.user-innerwrap{
-    display: flex;
-    align-items: center;
-    margin: 5px 5px;
-    justify-content: center;
-    width: 100%;
+    #div12>h2 {
+        font-size: 40px;
+        text-align: center;
+        padding-left: 0;
+    }
 
-    
-}
-.user-count-wrap{
-    font-size: 36px;
-    width: 50%;
+    .user-size-wrap {
 
-}
-.fl{
-    font-size: 18px;
-    width: 50%;
-    
+        margin-top: 10%;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 10%;
+    }
 
-}
-.counter{
-    text-align: center;
-}
-.user-size{
-    display: block;
-    width: 100%;
-}
-#button3{
-    margin-top: 7%;
-}
-}
+    .user-innerwrap {
+        display: flex;
+        align-items: center;
+        margin: 5px 5px;
+        justify-content: center;
+        width: 100%;
+
+
+    }
+
+    .user-count-wrap {
+        font-size: 36px;
+        width: 50%;
+
+    }
+
+    .fl {
+        font-size: 18px;
+        width: 50%;
+
+
+    }
+
+    .counter {
+        text-align: center;
+    }
+
+    .user-size {
+        display: block;
+        width: 100%;
+    }
+
+    #button3 {
+        margin-top: 7%;
+    }
+
+    #div14 {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+    #section7{
+        width: 100%;
+        height: 100%;
+    }
+    #section8{
+        width: 100%;
+        height: 60%;
+    }
+    #section9{
+        width: 100%;
+        height: inherit;
+    }
+    #div15 {
+        width: 95%;
+        height: 1200px;
+        margin: 2.5%;
+        background-color: #ffffff;
+        border-radius: 5px;
+        position: relative;
+        bottom: 70px;
+        text-align: center;
+    }
+    #div16{
+        flex-direction: column;
+    }
+    #section10{
+        width: 100%;
+        height: 800px;
+        background-color: #F8F9FB;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #div18{
+        width: 100%;
+        height: 60%;
+        margin-left:0;
+        padding-left: 0;
+    }
+    #div19{
+        width:100%;
+        height: 40%;
+        padding-left: 0;
+        margin-top: 10%;
+    }
+    #p5{
+        margin-left: 40%;}
+        #div19>img{
+            width: 100%;height: 100%;
+            margin-right: 17%;
+        }
+        #p6{
+            margin-left: 0;
+        }
+        #p7{
+        padding-right: 17%;
+        }
+        #button6{
+            margin-left: 5%;
+            margin-top: 10%;
+        }
+        #p8{
+            font-size:35px !important;
+            padding-top: 10%;
+        }
+        #section11{
+            width: 100%;
+            height: 300px;
+        }
+        #p9{
+            font-size: 25px !important;
+        }
+    }
