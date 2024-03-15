@@ -61,10 +61,44 @@
           </ul>
         </div>
       </div>
-      <button class="nav-link my-1" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile"
+    <div class="d-flex align-items-center text-light w-100 justify-content-evenly"> <button class="nav-link  my-2 mt-5 mx-0" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile"
         type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i
           class="fa-regular fa-calendar-days fa-2xl" style="color:#6F479E;background-color: white;"></i> <br>
         calender</button>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle mt-5" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          New Event
+        </button>
+        <ul class="dropdown-menu" style="background-color: #242933;color:#5786E7; font-weight:bold; font-size: 12px;">
+          MY CALENDERS
+          <li><a class="dropdown-item text-secondary fs-6" href="#"> <i class="fa-regular fa-circle-check" style="background-color: green;color: white;border-radius: 100%; margin-right: 10px;"></i> yemsef406</a></li>
+
+          <li><a class="dropdown-item text-secondary fs-6" href="#">Drafts</a></li>
+          <li><a class="dropdown-item text-secondary fs-6" href="#">Templates</a></li>
+          <li><a class="dropdown-item text-secondary fs-6" href="#">Snoozed</a></li>
+          <li><a class="dropdown-item text-secondary fs-6" href="#">Sent</a></li>
+          <li><a class="dropdown-item text-secondary fs-6" href="#">Spam</a></li>
+          <li><a class="dropdown-item text-secondary fs-6" href="#">Trash</a></li>
+          <li><a class="dropdown-item text-secondary fs-6" href="#">Outbox</a></li>
+          <li><a class="dropdown-item text-secondary fs-6" href="#">Newsletter</a></li>
+          <li><a class="dropdown-item text-secondary fs-6" href="#">Notification</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          TAGS
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          VIEWS
+          <li><a class="dropdown-item text-secondary fs-6" href="#">Unread</a></li>
+          <li><a class="dropdown-item text-secondary fs-6" href="#">All messages</a></li>
+          <li><a class="dropdown-item text-secondary fs-6" href="#">Flagged</a></li>
+          <li><a class="dropdown-item text-secondary fs-6" href="#">All archived</a></li>
+
+        </ul>
+      </div>
+    </div> 
       <button class="nav-link my-1" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled"
         type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false"><i
           class="fa-solid fa-square-check fa-2xl" style="background-color: white;color: #1D6B4A;"></i> <br>
@@ -83,8 +117,10 @@
           <div id="div1"><span><i class="fa-solid fa-envelope" style="background-color: #2778CC;color: white;"></i>
               Mail</span></div>
           <div id="div2">
-            <div class="input-group mb-3" style="width:300px; height:40px; background-color: #3d3f43; border: none; margin-left: 60px; ">
-              <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-magnifying-glass"></i> Mail</button>
+            <div class="input-group mb-3"
+              style="width:300px; height:40px; background-color: #3d3f43; border: none; margin-left: 60px; ">
+              <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-magnifying-glass"></i>
+                Mail</button>
               <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 <span class="visually-hidden">Toggle Dropdown</span>
@@ -93,13 +129,16 @@
                 <li><a class="dropdown-item" href="#">Mails</a></li>
                 <li><a class="dropdown-item" href="#">Stream</a></li>
                 <li><a class="dropdown-item" href="#">Calender</a></li>
-                
+
                 <li><a class="dropdown-item" href="#">Task</a></li>
               </ul>
-              <input placeholder="Search (/)" type="text" class="form-control" aria-label="Text input with segmented dropdown button" style="background-color: #3d3f43;">
+              <input placeholder="Search (/)" type="text" class="form-control"
+                aria-label="Text input with segmented dropdown button" style="background-color: #3d3f43;">
             </div>
-            <span><i class="fa-brands fa-snapchat fa-2xl" style="margin-top: 20px;margin-left: 30px;"></i> <i class="fa-regular fa-bell fa-2xl" style="margin-left: 30px;margin-top: 20px;"></i>
-              <button style="width: 40px;height: 40px;border: none;border-radius: 100%;background-color: orangered;margin-left: 30px;">A</button>
+            <span><i class="fa-brands fa-snapchat fa-2xl" style="margin-top: 20px;margin-left: 30px;"></i> <i
+                class="fa-regular fa-bell fa-2xl" style="margin-left: 30px;margin-top: 20px;"></i>
+              <button
+                style="width: 40px;height: 40px;border: none;border-radius: 100%;background-color: orangered;margin-left: 30px;">A</button>
               <i class="fa-solid fa-bars fa-2xl" style="margin-top: 20px;margin-left: 60px;"></i>
             </span>
 
@@ -107,15 +146,71 @@
           </div>
 
         </nav>
-        <button style="border: none; background-color: transparent;font-size: 14px;font-weight: bold; margin-left: -50px;margin-top: 20px;">Inbox <i class="fa-solid fa-chevron-down"></i></button>
+        <button
+          style="border: none; background-color: transparent;font-size: 14px;font-weight: bold; margin-left: -50px;margin-top: 20px;">Inbox
+          <i class="fa-solid fa-chevron-down"></i></button>
         <div id="div3">
-          <div id="div4"><input type="checkbox" name="" id=""> <i class="fa-solid fa-chevron-down"></i> <i class="fa-solid fa-filter"></i> Views </div>
-          <div id="div5"></div>
+          <div id="div4"><input type="checkbox" name="" id=""> <i class="fa-solid fa-chevron-down"
+              style="margin-right: 20px; margin-left: 10px;"></i> <i class="fa-solid fa-filter"
+              style="margin-right: 10px;"></i> Views <i class="fa-solid fa-paperclip"
+              style="margin-left: 20px;margin-right: 10px;"></i> Attachement options <i
+              class="fa-solid fa-ellipsis-vertical" style="margin-left: 20px;"></i></div>
+          <div id="div5"> <i class="fa-regular fa-comments" style="margin-right: 20px;"></i> <i
+              class="fa-solid fa-shuffle" style="margin-right: 20px;"></i> <i class="fa-solid fa-building-shield"
+              style="margin-right: 20px;"></i></div>
+
+        </div>
+        <div id="div6"> February
+
+        </div>
+        <div id="div7">
+          <div id="div8"> <input style="margin-right: 10px;" type="checkbox" name="" id=""> <i
+              class="fa-solid fa-envelope" style="color: gray;"></i> welcome@zoho.com...Me</div>
+          <div id="div9">
+            <div><button
+                style="border: 1px solid grey; width: 20px;height: 20px; border-radius: 100%;background-color: transparent;margin-left: 25px;font-size: 12px;">2</button>
+              Access from anywhere,anytime!</div>
+            <div style="font-size: 12px;color: gray;margin-left: 70%;padding-top: 5px;">TUE FEB 27 8:31 AM</div>
+          </div>
 
         </div>
       </div>
       <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
-        tabindex="0">...</div>
+        tabindex="0">
+        <nav id="section1">
+          <div id="div1"><span> <i class="fa-solid fa-calendar-days"></i>
+              Calender</span></div>
+          <div id="div2">
+            <div class="input-group mb-3"
+              style="width:300px; height:40px; background-color: #3d3f43; border: none; margin-left: 60px; ">
+              <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-magnifying-glass"></i>
+                Calender</button>
+              <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Mails</a></li>
+                <li><a class="dropdown-item" href="#">Stream</a></li>
+                <li><a class="dropdown-item" href="#">Calender</a></li>
+
+                <li><a class="dropdown-item" href="#">Task</a></li>
+              </ul>
+              <input placeholder="Search (/)" type="text" class="form-control"
+                aria-label="Text input with segmented dropdown button" style="background-color: #3d3f43;">
+            </div>
+            <span><i class="fa-brands fa-snapchat fa-2xl" style="margin-top: 20px;margin-left: 30px;"></i> <i
+                class="fa-regular fa-bell fa-2xl" style="margin-left: 30px;margin-top: 20px;"></i>
+              <button
+                style="width: 40px;height: 40px;border: none;border-radius: 100%;background-color: orangered;margin-left: 30px;">A</button>
+              <i class="fa-solid fa-bars fa-2xl" style="margin-top: 20px;margin-left: 60px;"></i>
+            </span>
+
+
+          </div>
+
+        </nav>
+      </div>
       <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab"
         tabindex="0">...</div>
       <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"
